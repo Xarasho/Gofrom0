@@ -2,7 +2,7 @@ package main
 
 import (
 	// "fmt"
-	"github.com/Xarasho/Gofrom0/iterators"
+	"github.com/Xarasho/Gofrom0/exercises"
 	// "github.com/Xarasho/Gofrom0/keyboard"
 )
 
@@ -32,6 +32,8 @@ func main() {
 
 	// keyboard.EnterNumbers()
 
-	iterators.Iter()
+	// iterators.Iter()
+
+	exercises.Ex02()
 
 }
