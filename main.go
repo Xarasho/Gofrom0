@@ -1,5 +1,10 @@
 package main
 
+import (
+	// "github.com/Xarasho/Gofrom0/exercises"
+	"github.com/Xarasho/Gofrom0/keyboard"
+)
+
 func main() {
 	// variables.ShowIntegers()
 	// variables.ShowRest()
@@ -21,6 +26,9 @@ func main() {
 	// 	fmt.Printf("%s \n", os)
 	// }
 
-	// num, text := exercises.Ex01("101")
+	// num, text := exercises.Ex01("fds")
 	// fmt.Println(num, text)
+
+	keyboard.EnterNumbers()
+
 }
