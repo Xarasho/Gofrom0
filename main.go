@@ -1,8 +1,9 @@
 package main
 
 import (
-	// "github.com/Xarasho/Gofrom0/exercises"
-	"github.com/Xarasho/Gofrom0/keyboard"
+	// "fmt"
+	"github.com/Xarasho/Gofrom0/iterators"
+	// "github.com/Xarasho/Gofrom0/keyboard"
 )
 
 func main() {
@@ -29,6 +30,8 @@ func main() {
 	// num, text := exercises.Ex01("fds")
 	// fmt.Println(num, text)
 
-	keyboard.EnterNumbers()
+	// keyboard.EnterNumbers()
+
+	iterators.Iter()
 
 }
